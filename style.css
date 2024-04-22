@@ -11,9 +11,18 @@ body {
     display: flex; /* creates the flex box within the screen-area */
     flex-wrap: wrap; /* wraps the cells in the available screen-area size */
     background-color: white;
-    margin: 100px auto;
+    margin: 100px auto 10px auto;
 }
 
 .cell {
     border: 1px solid red;
+}
+
+#controls {
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    gap: 10px;
+    
+
 }
