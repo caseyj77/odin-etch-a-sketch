@@ -15,9 +15,11 @@
     <!-- container for the buttons and then three buttons-->
     <div id="controls">
         <div id="reset" class="button"><button>Reset</button></div>
-        <div id="color" class="button"><button>Color</button></div>
         <div id="random" class="button"><button>Random</button></div>
-        <div id="reset" class="button"><input type="number" placeholder="Enter a number"><button onclick="inputValue()">Enter</button></div>
+        <div id="size-input" class="button">
+            <input type="number" id="grid-size" placeholder="Enter a number">
+            <button onclick="updateGrid()">Enter</button>
+        </div>
         
     </div>
 
