@@ -18,7 +18,7 @@ function createGridCells() {
 
         sketchArea.appendChild(gridCell);
 
-        gridCell.addEventListener('mouseover', changeColor);
+        gridCell.addEventListener('mouseover', changeColor); // event listenr looking for the mouse to enter the cell and then changing its color
     }
 }
 
